@@ -6,7 +6,6 @@ const children = "Don't break it"
 
 const lineCount = 1
 const { words, chars } = count(children, { preserveNonBreakingSpaces: true })
-console.log(words, chars)
 
 export default {
   title: 'Tests/Non-breaking spaces',
