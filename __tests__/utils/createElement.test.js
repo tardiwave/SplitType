@@ -18,6 +18,11 @@ describe(`utils.createElement(name, attributes)`, () => {
     const element = createElement('div', { children })
     expect(element.textContent).toEqual(children)
   })
+  it(`Creates an element preserving non-breaking spaces`, () => {
+    const children = String.fromCharCode(160)
+    const element = createElement('div', { children }, true)
+    expect(element.textContent).toEqual(children)
+  })
   it(`Creates an element with children`, () => {
     const children = [1, 2, 3].map((i) => {
       const element = document.createElement('p')

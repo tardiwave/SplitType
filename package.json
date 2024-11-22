@@ -47,6 +47,7 @@
     "@storybook/addon-actions": "^6.5.8",
     "@storybook/addon-essentials": "^6.5.8",
     "@storybook/addon-links": "^6.5.8",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addon-storyshots": "^6.5.8",
     "@storybook/addon-storyshots-puppeteer": "^6.5.8",
     "@storybook/svelte": "^6.5.8",

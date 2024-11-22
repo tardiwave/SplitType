@@ -23,6 +23,7 @@ declare module 'split-type' {
     splitClass: string
     types: TypesList
     split: TypesList
+    preserveNonBreakingSpaces: boolean
   }
 
   type TargetElement =
